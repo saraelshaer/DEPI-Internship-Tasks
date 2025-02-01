@@ -9,6 +9,7 @@
 }
 html, body {
     overflow-x: hidden;
+
 }
 
 .nav{
@@ -70,6 +71,7 @@ html, body {
 hr{
     color: rgba(231, 229, 229, 0.022);
     border: none;
+    width: 97%;
     height: 1px;
     background-color: rgba(220, 218, 218, 0.607);
 }
@@ -104,7 +106,7 @@ font-weight: 500;
 
 .pragraph{
     width: 97%;
-    margin:15px 15px 15px 0px;
+    margin:15px 15px 0px 0px;
     padding: 10px;
     padding-left: 0px;
     font-size: 16px;
@@ -161,5 +163,35 @@ font-weight: 500;
 
 .cart_member button:hover{
     background-color: rgba(170, 168, 168, 0.727);
+
+}
+form{
+
+    width: 100%;
+}
+form input{
+    width: 97%;
+    height:40px;
+    padding: 6px;
+    margin: 6px;
+    margin-right: 10px;
+    margin-left: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px rgba(173, 172, 172, 0.66) solid;
+
+}
+input[type="submit"]{
+    width:150px;
+    height: 40px;
+    margin: 20px 16px 25px 0px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+input[type="submit"]:hover{
+    color: rgb(16, 16, 16);
+    background-color: rgba(210, 209, 209, 0.879);
 
 }
