@@ -13,14 +13,14 @@ html, body {
 }
 
 .nav{
-    background-color: rgb(245, 243, 243);
+    background-color: rgb(255, 255, 255);
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 55px;
     z-index: 999;
     display: flex;
     justify-content: space-between;
-    padding: 20px  ;
+    padding: 16px  ;
 }
 .links a{
     padding-left: 20px;
@@ -28,10 +28,10 @@ html, body {
 .nav a{
     text-decoration: none;
     color: black;
-    letter-spacing: 3px;
+    letter-spacing: 3.2px;
     font-size: 16px;
     font-weight: 500;
-    padding: 10px 15px ;
+    padding: 7px 15px ;
     
 }
 
@@ -65,7 +65,7 @@ html, body {
 }
 .section{
     width: 100%;
-    margin: 80px 30px;
+    margin: 80px 30px 3px 30px;
     font-size: 22px;
 }
 hr{
@@ -165,10 +165,17 @@ font-weight: 500;
     background-color: rgba(170, 168, 168, 0.727);
 
 }
-form{
-
-    width: 100%;
+.form{
+   display: flex;
+   flex-direction: column;
 }
+.form img{
+    width: 97%;
+    margin: 18px 18px 6px 0;
+    
+
+}
+
 form input{
     width: 97%;
     height:40px;
@@ -194,4 +201,22 @@ input[type="submit"]:hover{
     color: rgb(16, 16, 16);
     background-color: rgba(210, 209, 209, 0.879);
 
+}
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+footer p{
+    margin-top: 29px;
+    padding: auto;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer p span{
+    text-decoration: underline;
 }
