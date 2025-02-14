@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 - js </title>
+    <style>
+        div{
+            background-color: white;
+            width: 25%;
+            border: 3px rgba(171, 4, 4, 0.852) solid;
+            border-radius: 10px;
+            margin:200px auto;
+            padding: 25px;
+            text-align: center;
+            letter-spacing: 2.2px;
+        }
+        div p{
+            font-size: 36px;
+        }
+        div button{
+            height: 40px;
+            margin: 10px;
+            padding: 5px 15px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            font-size: 16px ;
+            letter-spacing: 2.2px;
+            transition: 0.3s;
+        }
+        div button:hover{
+            background-color: rgba(28, 28, 28, 0.929);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Emojis</h1>
+        <p id = "demo">&#128512;</p>
+        <button onclick="getRandomNumber(128512 , 128567)">Random Emoji </button>
+    </div>
+
+    <script>
+        function getRandomNumber(min , max) {
+            document.getElementById("demo").innerHTML="&#"+ (Math.floor(Math.random() * (max -min +1 )) + min)+";"
+        }
+        
+    </script>
+</body>
+</html>
